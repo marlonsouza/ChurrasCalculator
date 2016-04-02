@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/consumoMedioRefrigerante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consumoMedio"
+        />
+    <TextView
+        android:id="@+id/refrigerante_label"
+        android:layout_below="@id/consumoMedioRefrigerante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/refrigeranteLabel"/>
+    <EditText
+        android:id="@+id/refrigerante"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/enviar_refrigerante"
+        android:layout_width="match_parent"
+        android:text="@string/proximo"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

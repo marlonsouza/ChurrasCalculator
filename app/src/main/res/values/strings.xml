@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChurrasCalculator</string>
+
+    <string name="carneLabel">Carne(g):</string>
+    <string name="linguicaLabel">Linguiça(g):</string>
+    <string name="refrigeranteLabel">Refrigerante(ml):</string>
+    <string name="numeroPessoasLabel">Número de pessoas:</string>
+
+    <string name="proximo">Próximo</string>
+    <string name="consumoMedio">Consumo médio de </string>
+</resources>
